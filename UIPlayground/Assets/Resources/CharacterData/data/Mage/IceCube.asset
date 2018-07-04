@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fca6ea1250501e4cba38ef022b90d07, type: 3}
+  m_Name: IceCube
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1998653183234534, guid: 4ac1d601c72e9944ba04d674b373fece, type: 2}
+  maxHealth: 666
+  maxEnergy: 55
+  critChance: 39.8
+  power: 41.4
+  characterName: IceCube
+  dmgType: 1
+  wpnType: 1

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: fa81cd9d53e343b4c81da08aff827135
+timeCreated: 1529456735
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Simplex
+  fontNames:
+  - Simplex
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 84c14f49c9dc4ff4888e619cf3be7dc5, type: 3}
+  - {fileID: 12800000, guid: 4c88950d4cca6a74bb6b384f85441882, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

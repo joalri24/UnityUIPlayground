@@ -27,7 +27,7 @@ public class EnemyDesignerWindow : EditorWindow
 
     private static MageData mageData;
     private static WarriorData warriorData;
-    private static RougeData rogueData;
+    private static RogueData rogueData;
 
     private float iconSize = 30f;
 
@@ -38,7 +38,7 @@ public class EnemyDesignerWindow : EditorWindow
 
     public static MageData MageInfo{ get { return mageData; } }
     public static WarriorData WarriorInfo { get { return warriorData; } }
-    public static RougeData RogueInfo { get { return rogueData; } }
+    public static RogueData RogueInfo { get { return rogueData; } }
 
     #endregion
 
@@ -71,7 +71,7 @@ public class EnemyDesignerWindow : EditorWindow
     {
         mageData = (MageData) CreateInstance(typeof(MageData));
         warriorData = (WarriorData)CreateInstance(typeof(WarriorData));
-        rogueData = (RougeData)CreateInstance(typeof(RougeData));
+        rogueData = (RogueData)CreateInstance(typeof(RogueData));
 
     }
 
@@ -441,9 +441,9 @@ public class EnemyDesignerWindow : EditorWindow
 
                     GameObject roguePrefab = (GameObject)AssetDatabase.LoadAssetAtPath(newPrefabPath, typeof(GameObject));
 
-                    if (!roguePrefab.GetComponent<Rouge>())
-                        roguePrefab.AddComponent(typeof(Rouge));
-                    roguePrefab.GetComponent<Rouge>().rogueData = EnemyDesignerWindow.RogueInfo;
+                    if (!roguePrefab.GetComponent<Rogue>())
+                        roguePrefab.AddComponent(typeof(Rogue));
+                    roguePrefab.GetComponent<Rogue>().rogueData = EnemyDesignerWindow.RogueInfo;
                     break;
                 #endregion
 

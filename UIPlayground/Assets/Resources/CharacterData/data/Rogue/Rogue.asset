@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 199c5a58812c975489c21cd392892c88, type: 3}
-  m_Name: Rouge
+  m_Name: Rogue
   m_EditorClassIdentifier: 
   prefab: {fileID: 1998653183234534, guid: 4ac1d601c72e9944ba04d674b373fece, type: 2}
   maxHealth: 566
   maxEnergy: 556
   critChance: 29.2
   power: 63.5
-  characterName: Rouge
+  characterName: Rogue
   wpnType: 0
   strategyType: 1

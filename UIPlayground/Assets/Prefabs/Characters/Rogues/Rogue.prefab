@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 23714444595808346}
   - component: {fileID: 114439344892974014}
   m_Layer: 0
-  m_Name: Rouge
+  m_Name: Rogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
